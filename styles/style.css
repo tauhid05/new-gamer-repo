@@ -150,6 +150,7 @@ body{
   color: #FFF;
   font-size: 20px;
   font-weight: 600;
+  border: none;
 }
 
 .btn-secondary{
@@ -159,6 +160,7 @@ body{
   color: #FFF;
   font-size: 20px;
   font-weight: 600;
+  border: none;
 }
 
 
@@ -168,4 +170,77 @@ button{
 
 .banner-2{
   margin-top: 20px;
+}
+
+/* gamer styles  */
+
+.gamer-container{
+  display: flex;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+  margin-top: 0px;
+  padding-left: 240px;
+  padding-right: 240px;
+  gap: 52px;
+}
+
+
+.gamer-image{
+  margin: 55px 0px;
+}
+
+.gamer-zone{
+  margin-top: 95px;
+  margin-bottom: 95px;
+}
+
+
+.gamer-title{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: right;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.gamer-description{
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+  width: 520px;
+  margin-bottom: 32px;
+}
+
+
+.gamer-btn{
+  border-radius: 48px;
+  background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+  padding: 20px 40px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  border: none;
+  margin-bottom: 25px;
+  float: right;
+}
+
+
+.gamer-description1{
+  margin-top: 170px;
+  color: #534C64;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.unleash{
+  font-size: 32px;
+  font-weight: 700;
 }
