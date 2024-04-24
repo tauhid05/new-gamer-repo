@@ -244,3 +244,63 @@ button{
   font-size: 32px;
   font-weight: 700;
 }
+
+/* online gamer styles */
+
+
+.online-gamer{
+  margin: 120px 240px;
+}
+
+
+.video{
+  text-align: center;
+}
+
+
+.video-title{
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+
+.Funny{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.video-description{
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+
+.gamer-video{
+  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  border-radius: 16px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  border: none;
+}
+
+.card:hover{
+  border-radius: 16px;
+  border: 4px solid var(--Linear, #FF42A5);
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat; */
+  position: relative;
+  background-color: #00000099;
+  <i class="fa-regular fa-circle-play"></i>
+}
