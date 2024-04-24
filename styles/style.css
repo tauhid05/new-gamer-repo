@@ -8,7 +8,7 @@ body{
 /* footer styles */
 
 
-.footer{
+.header{
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   display: flex;
@@ -42,22 +42,22 @@ body{
 }
 
 
-.footer-container{
+.header-container{
   margin-right: 240px;
 }
 
-.footer-container > ul{
+.header-container > ul{
   display: flex;
   align-items: center;
 }
 
 
-.footer-container ul li{
+.header-container ul li{
   list-style: none;
 }
 
 
-.footer-container  li a{
+.header-container  li a{
   text-decoration: none;
   margin-right: 32px;
   color: #3C354F;
@@ -302,5 +302,118 @@ button{
   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat; */
   position: relative;
   background-color: #00000099;
-  <i class="fa-regular fa-circle-play"></i>
+}
+
+
+/* footer styles */
+
+footer{
+  background: #0B0223;
+  margin-top: 120px;
+}
+
+
+.footer{
+  text-align: center;
+  padding-top: 120px;
+}
+
+.footer-game{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 66px;
+}
+
+.image-title1{
+  color: #FFF;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+
+.footer-ankar{
+  margin-bottom: 66px;
+}
+
+
+.footer-ankar > ul{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.footer-ankar ul li{
+  list-style: none;
+  margin-right: 60px;
+}
+
+
+.footer-ankar ul li a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.footer-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 75px;
+}
+
+.fa-square-twitter{
+  color: #FFFFFF;
+}
+.fa-facebook{
+  color: #1877F2;
+}
+.fa-youtube{
+  color: #FF0000;
+}
+.fa-linkedin{
+  color: #FFFFFF;
+}
+.fa-instagram{
+  color: #FFFFFF;
+}
+.fa-apple{
+  color: #FFFFFF;
+}
+
+
+.description-ankar{
+  margin-bottom: 5px;
+}
+
+
+.description-ankar > ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description-ankar ul li{
+  list-style: none;
+  margin-right: 60px;
+}
+
+
+.description-ankar ul li a{
+  text-decoration: none;
+  color: #FFFFFF99;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-description{
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 130px;
 }
