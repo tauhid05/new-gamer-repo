@@ -304,12 +304,35 @@ button{
   background-color: #00000099;
 }
 
+/* gamer button styles */
+
+
+.gamer-button{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+  padding: 120px 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.click-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #FFF;
+  gap: 15px;
+  border: none; 
+}
+
+
 
 /* footer styles */
 
 footer{
   background: #0B0223;
-  margin-top: 120px;
 }
 
 
@@ -323,6 +346,7 @@ footer{
   align-items: center;
   justify-content: center;
   margin-bottom: 66px;
+  gap: 20px;
 }
 
 .image-title1{
