@@ -615,3 +615,46 @@ footer{
   font-weight: 500;
   padding-bottom: 130px;
 }
+
+.display{
+  display: none;
+}
+
+
+/* mobile divice responsive */
+
+
+@media screen and (max-width: 576px) {
+  
+  
+  .header,
+  ul{
+    flex-direction: column;
+  }
+
+
+  .image-title{
+    margin-bottom: 60px;
+  }
+
+
+  .frame{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+  }
+
+  ul li a{
+    margin-left: 200px;
+  }
+
+  ul li{
+    margin-bottom: 30px;
+  }
+
+  .btn{
+    margin-left: 190px;
+    width: 260px;
+  }
+}
